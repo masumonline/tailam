@@ -1,5 +1,5 @@
 export default function addClassicNavBar(bm) {
-  bm.add("tailwind-nav1", {
+  bm.add("classicnavbar1", {
     label: "Classic Navbar",
     category: "Tailwind Navbar",
     content: `<nav class="bg-indigo-950 text-white">
@@ -20,7 +20,7 @@ export default function addClassicNavBar(bm) {
             </nav>`,
     media: `<svg baseProfile="tiny" height="100" version="1.2" width="100"><defs />
     <rect fill="#1e1a4d" height="100" width="100" x="0" y="0" />
-    <rect fill="#666" height="1" width="100" x="0" y="11" />
+    <rect fill="#666" height="1" width="100" x="0" y="15" />
     <text fill="white" font-size="6px" x="5" y="10">Logo</text>
     <text fill="white" font-size="4px" x="50" y="10">menu</text>
     <text fill="white" font-size="4px" x="65" y="10">menu</text>
