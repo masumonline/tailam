@@ -24,6 +24,7 @@ import addMax4xl from "./blocks/containers/max4xl.js";
 import addMax3xl from "./blocks/containers/max3xl.js";
 import addMax2xl from "./blocks/containers/max2xl.js";
 import addMaxxl from "./blocks/containers/max1xl.js";
+import addClassicNavBar from "./blocks/nav/classicnavbar.js";
 
 export default (editor) => {
   const bm = editor.BlockManager;
@@ -53,28 +54,7 @@ export default (editor) => {
   addMax3xl(bm);
   addMax2xl(bm);
   addMaxxl(bm);
-
-  bm.add("tailwind-nav1", {
-    label: "Classic Navbar",
-    category: "Tailwind",
-    content: `<nav class="bg-indigo-950 text-white">
-                    <div class="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
-                    <div class="font-bold text-lg chiness">MyBrand</div>
-                    <div class="hidden md:flex space-x-4">
-                        <a href="#" class="hover:underline">Home</a>
-                    <div class="relative group">
-                    <button class="hover:underline">Products</button>
-                    <div class="absolute left-0 mt-2 w-40 bg-white text-black rounded shadow-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 transition">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Laptops</a>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Phones</a>
-                    </div>
-                </div>
-                <a href="#" class="hover:underline">About</a>
-                    </div>
-                </div>
-            </nav>`,
-    media: `<img src="./img/small.jpg" style="width:100px;height:100px" />`,
-  });
+  addClassicNavBar(bm);
 
   bm.add("tailwind-nav2", {
     label: "Navbar Logo Center",
