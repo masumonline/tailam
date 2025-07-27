@@ -1,10 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Grapesjs Tailam</title>
-    <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet">
+    <link
+      href="https://unpkg.com/grapesjs/dist/css/grapes.min.css"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/grapesjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
       body,
       html {
@@ -14,24 +18,23 @@
     </style>
   </head>
   <body>
-
-    <div id="gjs" style="height:0px; overflow:hidden">
-    </div>
-
-
+    <div id="gjs" style="height: 0px; overflow: hidden"></div>
     <script type="text/javascript">
       // Wait for the plugin to be injected by the dev server
+      // all color bg-indigo-950, bg-sky-600, bg-cyan-600, bg-cyan-500, bg-yellow-600
       setTimeout(() => {
         window.editor = grapesjs.init({
-          height: '100%',
-          container: '#gjs',
+          height: "100%",
+          container: "#gjs",
           showOffsets: true,
           fromElement: true,
           noticeOnUnload: false,
           storageManager: false,
-          plugins: ['grapesjs-tailam'],
+          plugins: ["grapesjs-tailam"],
           pluginsOpts: {
-            'grapesjs-tailam': { /* Test here your options  */ }
+            "grapesjs-tailam": {
+              /* Test here your options  */
+            },
           },
         });
       }, 100);
