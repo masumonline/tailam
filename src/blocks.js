@@ -30,6 +30,7 @@ import addDropdown from "./blocks/nav/dropdown.js";
 import addSidebar1 from "./blocks/nav/sidebar1.js"; 
 import addSidebar2 from "./blocks/nav/sidebar2.js";
 import addCard1 from "./blocks/content/card1.js";
+import addCard2 from "./blocks/content/card2.js";
 
 export default (editor) => {
   const bm = editor.BlockManager;
@@ -65,4 +66,5 @@ export default (editor) => {
   addSidebar1(bm);
   addSidebar2(bm);
   addCard1(bm);
+  addCard2(bm);
 };
