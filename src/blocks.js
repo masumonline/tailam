@@ -18,6 +18,15 @@ import addMax6xl from "./blocks/containers/max6xl.js"
 import addMax7xl from "./blocks/containers/max7xl.js"
 import addCard1 from "./blocks/content/cards/card1.js"
 import addCard10 from "./blocks/content/cards/card10.js"
+import addCard11 from "./blocks/content/cards/card11.js"
+import addButton2 from "./blocks/buttons/ripple-button-a2.js"
+import addButton3 from "./blocks/buttons/outline-button-a3.js"
+import addButton4 from "./blocks/buttons/rounded-button-blue-a4.js"
+import addButton5 from "./blocks/buttons/outline-button-a2.js"
+import addButton6 from "./blocks/buttons/rainbow-button-a1.js"
+import addButton8 from "./blocks/buttons/loading-button-a1.js"
+import addButton9 from "./blocks/buttons/animate-button-a1.js"
+import addButton10 from "./blocks/buttons/animate-button-a2.js"
 import addCard2 from "./blocks/content/cards/card2.js"
 import addCard3 from "./blocks/content/cards/card3.js"
 import addCard4 from "./blocks/content/cards/card4.js"
@@ -39,6 +48,8 @@ import addDropdown from "./blocks/nav/dropdown.js"
 import addNavBarLogoCenter from "./blocks/nav/navbarlogocenter.js"
 import addSidebar1 from "./blocks/nav/sidebar1.js"
 import addSidebar2 from "./blocks/nav/sidebar2.js"
+import addBlog1 from "./blocks/content/blog/blog-a1.js"
+import addBlog2 from "./blocks/content/blog/blog-a2.js"
 
 export default (editor) => {
     const bm = editor.BlockManager
@@ -83,4 +94,15 @@ export default (editor) => {
     addCard8(bm)
     addCard9(bm)
     addCard10(bm)
+    addCard11(bm)
+    addButton2(bm)
+    addButton3(bm)
+    addButton4(bm)
+    addButton5(bm)
+    addButton6(bm)
+    addButton8(bm)
+    addButton9(bm)
+    addButton10(bm)
+    addBlog1(bm)
+    addBlog2(bm)
 }
