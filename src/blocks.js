@@ -27,8 +27,9 @@ import addMaxxl from "./blocks/containers/max1xl.js";
 import addClassicNavBar from "./blocks/nav/classicnavbar.js";
 import addNavBarLogoCenter from "./blocks/nav/navbarlogocenter.js";
 import addDropdown from "./blocks/nav/dropdown.js";
-import addSidebar1 from "./blocks/nav/sidebar1.js"; // Assuming this is the correct import for the sidebar block
+import addSidebar1 from "./blocks/nav/sidebar1.js"; 
 import addSidebar2 from "./blocks/nav/sidebar2.js";
+import addCard1 from "./blocks/content/card1.js";
 
 export default (editor) => {
   const bm = editor.BlockManager;
@@ -63,4 +64,5 @@ export default (editor) => {
   addDropdown(bm);
   addSidebar1(bm);
   addSidebar2(bm);
+  addCard1(bm);
 };

@@ -15,7 +15,7 @@ export default (editor) => {
     // });
 
     editor.BlockManager.getCategories().forEach((category) => {
-      const isMain = category.get("id") === "Tailwind Sidebar";
+      const isMain = category.get("id") === "Tailwind Card";
       category.set("open", isMain);
     });
   });
