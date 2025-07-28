@@ -1,7 +1,7 @@
 export default function add7Card1(bm) {
-    bm.add('card1', {
-        label: 'Card',
-        category: 'Tailwind Card',
+    bm.add("card1", {
+        label: "Card",
+        category: "Tailwind Card",
         media: `<div style="font-size: 20px; font-weight: bold; color: #f97316;">Card 1</div>`,
         content: `<div class="max-w-md w-full bg-white rounded-lg shadow-lg overflow-hidden">
       <!-- Blog Image -->
