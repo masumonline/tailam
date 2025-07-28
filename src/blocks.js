@@ -31,6 +31,14 @@ import addSidebar1 from "./blocks/nav/sidebar1.js";
 import addSidebar2 from "./blocks/nav/sidebar2.js";
 import addCard1 from "./blocks/content/card1.js";
 import addCard2 from "./blocks/content/card2.js";
+import addCard3 from "./blocks/content/card3.js";
+import addCard4 from "./blocks/content/card4.js";
+import addCard5 from "./blocks/content/card5.js";
+import addCard6 from "./blocks/content/card6.js";
+import addCard7 from "./blocks/content/card7.js";
+import addCard8 from "./blocks/content/card8.js";
+import addCard9 from "./blocks/content/card9.js";
+import addCard10 from "./blocks/content/card10.js";
 
 export default (editor) => {
   const bm = editor.BlockManager;
@@ -67,4 +75,12 @@ export default (editor) => {
   addSidebar2(bm);
   addCard1(bm);
   addCard2(bm);
+  addCard3(bm);
+  addCard4(bm);
+  addCard5(bm);
+  addCard6(bm);
+  addCard7(bm);
+  addCard8(bm);
+  addCard9(bm);
+  addCard10(bm);
 };
