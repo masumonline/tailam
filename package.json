@@ -18,7 +18,8 @@
     "plugin"
   ],
   "devDependencies": {
-    "grapesjs-cli": "^4.1.3"
+    "grapesjs-cli": "^4.1.3",
+    "prettier": "3.6.2"
   },
   "license": "MIT"
 }

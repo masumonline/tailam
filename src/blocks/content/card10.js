@@ -1,9 +1,9 @@
 export default function add7Card10(bm) {
-  bm.add("card10", {
-    label: "Card-10",
-    category: "Tailwind Card",
-    media: `<div style="font-size: 20px; font-weight: bold; color: #f97316;">Card 10</div>`,
-    content: `<div class="bg-red-400 inline-block p-5"><div
+    bm.add("card10", {
+        label: "Card-10",
+        category: "Tailwind Card",
+        media: `<div style="font-size: 20px; font-weight: bold; color: #f97316;">Card 10</div>`,
+        content: `<div class="bg-red-400 inline-block p-5"><div
         class="backdrop-blur-lg bg-white/30 border border-white/20 rounded-xl shadow-xl max-w-xs p-6 text-center"
       >
         <!-- Profile Image -->
@@ -60,5 +60,5 @@ export default function add7Card10(bm) {
           Follow
         </button>
       </div></div>`,
-  });
+    })
 }

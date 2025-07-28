@@ -1,9 +1,9 @@
 export default function add7Card1(bm) {
-  bm.add("card1", {
-    label: "Card",
-    category: "Tailwind Card",
-    media: `<div style="font-size: 20px; font-weight: bold; color: #f97316;">Card 1</div>`,
-    content: `<div class="max-w-md w-full bg-white rounded-lg shadow-lg overflow-hidden">
+    bm.add('card1', {
+        label: 'Card',
+        category: 'Tailwind Card',
+        media: `<div style="font-size: 20px; font-weight: bold; color: #f97316;">Card 1</div>`,
+        content: `<div class="max-w-md w-full bg-white rounded-lg shadow-lg overflow-hidden">
       <!-- Blog Image -->
       <img
         src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -32,5 +32,5 @@ export default function add7Card1(bm) {
         </div>
       </div>
     </div>`,
-  });
+    })
 }
