@@ -8,7 +8,7 @@ export default function add7Card10(bm) {
       >
         <!-- Profile Image -->
         <img
-          src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=400"
+          src="https://i.ibb.co/3yfsMxD4/color-palette.jpg"
           alt="Profile"
           class="w-28 h-28 rounded-full mx-auto border-4 border-white/30 shadow-lg mb-4"
         />
