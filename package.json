@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-tailam",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Grapesjs Tailam",
   "main": "dist/index.js",
   "repository": {
