@@ -8,7 +8,6 @@ export default (editor) => {
         script.src = "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
         canvasHead.appendChild(script)
 
-        // Now safe to load your custom blocks
         loadBlocks(editor)
         // editor.BlockManager.getCategories().forEach((category) => {
         //   category.set("open", false);
