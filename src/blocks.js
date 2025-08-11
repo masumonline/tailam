@@ -50,6 +50,15 @@ import addSidebar1 from "./blocks/nav/sidebar1.js"
 import addSidebar2 from "./blocks/nav/sidebar2.js"
 import addBlog1 from "./blocks/content/blog/blog-a1.js"
 import addBlog2 from "./blocks/content/blog/blog-a2.js"
+import addBlog3 from "./blocks/content/blog/blog-a3.js"
+import addBlog4 from "./blocks/content/blog/blog-a4.js"
+import addBlog5 from "./blocks/content/blog/blog-a5.js"
+import addBlog6 from "./blocks/content/blog/blog-a6.js"
+import addBlog7 from "./blocks/content/blog/blog-a7.js"
+import addBlog8 from "./blocks/content/blog/blog-a8.js"
+import addBlog9 from "./blocks/content/blog/blog-a9.js"
+import addBlog10 from "./blocks/content/blog/blog-a10.js"
+import addBlog11 from "./blocks/content/blog/blog-a11.js"
 
 export default (editor) => {
     const bm = editor.BlockManager
@@ -105,4 +114,13 @@ export default (editor) => {
     addButton10(bm)
     addBlog1(bm)
     addBlog2(bm)
+    addBlog3(bm)
+    addBlog4(bm)
+    addBlog5(bm)
+    addBlog6(bm)
+    addBlog7(bm)
+    addBlog8(bm)
+    addBlog9(bm)
+    addBlog10(bm)
+    addBlog11(bm)
 }
