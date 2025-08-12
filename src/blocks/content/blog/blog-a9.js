@@ -10,7 +10,7 @@ export default function addBlog9(bm) {
       <img
         src="https://images.unsplash.com/photo-1522199710521-72d69614c702?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
         alt="Beautiful Nature"
-        class="w-full md:w-1/3 h-72 object-cover"
+        class="w-full md:w-1/3 h-git72 object-cover"
       />
       <!-- Blog Content -->
       <div class="p-6 flex flex-col justify-between">

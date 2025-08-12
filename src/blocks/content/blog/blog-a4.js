@@ -3,7 +3,7 @@ export default function addBlog4(bm) {
         label: "Blog-4",
         category: "Tailwind Blog",
         media: `<div style="font-size: 20px; font-weight: bold; color: #f97316;">Blog 4</div>`,
-        content: `<div class="max-w-4xl mx-auto">
+        content: `<div class="max-w-4xl">
       <h1 class="text-3xl font-bold mb-8 text-gray-800">Blog Post Summary</h1>
       <div class="overflow-x-auto rounded-lg shadow">
         <table class="min-w-full bg-white">

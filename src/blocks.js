@@ -48,6 +48,8 @@ import addDropdown from "./blocks/nav/dropdown.js"
 import addNavBarLogoCenter from "./blocks/nav/navbarlogocenter.js"
 import addSidebar1 from "./blocks/nav/sidebar1.js"
 import addSidebar2 from "./blocks/nav/sidebar2.js"
+import addHeaderwithLogo from "./blocks/nav/header_with_logo.js"
+import addFreshHeaderLogo from "./blocks/nav/fresh_header_with_inline_Logo.js"
 import addBlog1 from "./blocks/content/blog/blog-a1.js"
 import addBlog2 from "./blocks/content/blog/blog-a2.js"
 import addBlog3 from "./blocks/content/blog/blog-a3.js"
@@ -59,6 +61,7 @@ import addBlog8 from "./blocks/content/blog/blog-a8.js"
 import addBlog9 from "./blocks/content/blog/blog-a9.js"
 import addBlog10 from "./blocks/content/blog/blog-a10.js"
 import addBlog11 from "./blocks/content/blog/blog-a11.js"
+import addGallerywithInformation from "./blocks/content/gallery/gallery_with_information.js"
 
 export default (editor) => {
     const bm = editor.BlockManager
@@ -93,6 +96,8 @@ export default (editor) => {
     addDropdown(bm)
     addSidebar1(bm)
     addSidebar2(bm)
+    addHeaderwithLogo(bm)
+    addFreshHeaderLogo(bm)
     addCard1(bm)
     addCard2(bm)
     addCard3(bm)
@@ -123,4 +128,5 @@ export default (editor) => {
     addBlog9(bm)
     addBlog10(bm)
     addBlog11(bm)
+    addGallerywithInformation(bm)
 }

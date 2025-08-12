@@ -3,7 +3,7 @@ export default function addBlog7(bm) {
         label: "Single Post",
         category: "Tailwind Blog",
         media: `<div style="font-size: 20px; font-weight: bold; color: #f97316;">Blog 7</div>`,
-        content: `<div class="max-w-3xl mx-auto px-4 py-10">
+        content: `<div class="max-w-3xl px-4 py-10">
       <!-- Post Header -->
       <div class="mb-8">
         <img
