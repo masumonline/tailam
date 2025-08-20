@@ -62,6 +62,17 @@ import addBlog9 from "./blocks/content/blog/blog-a9.js"
 import addBlog10 from "./blocks/content/blog/blog-a10.js"
 import addBlog11 from "./blocks/content/blog/blog-a11.js"
 import addGallerywithInformation from "./blocks/content/gallery/gallery_with_information.js"
+import addOverlayGridGallery1 from "./blocks/content/gallery/overlayGridGallery1.js"
+import addPhotoGallery from "./blocks/content/gallery/photogallery.js"
+import addFooter1 from "./blocks/content/footer/footer1.js"
+import addFooter2 from "./blocks/content/footer/footer2.js"
+import addCompactSignupForm from "./blocks/content/forms/compact_signup_form.js"
+import addFeedbackFormWithDropdown from "./blocks/content/forms/feedback_form_with_dropdown.js"
+import job_application_form from "./blocks/content/forms/job_application_form.js"
+import addLoginFormWithIcons from "./blocks/content/forms/login_form_with_icons.js"
+import subscription_form_newsletter from "./blocks/content/forms/subscription_form_newsletter.js"
+import addSearchBarwithClearButton from "./blocks/content/forms/search_bar_with_clear_button.js"
+import addSearchBoxwithAnimatedUnderlineOnFocus from "./blocks/content/forms/search_box_with_animated_underline_on_focus.js"
 
 export default (editor) => {
     const bm = editor.BlockManager
@@ -129,4 +140,15 @@ export default (editor) => {
     addBlog10(bm)
     addBlog11(bm)
     addGallerywithInformation(bm)
+    addOverlayGridGallery1(bm)
+    addPhotoGallery(bm)
+    addFooter1(bm)
+    addFooter2(bm)
+    addCompactSignupForm(bm)
+    addFeedbackFormWithDropdown(bm)
+    job_application_form(bm)
+    addLoginFormWithIcons(bm)
+    subscription_form_newsletter(bm)
+    addSearchBarwithClearButton(bm)
+    addSearchBoxwithAnimatedUnderlineOnFocus(bm)
 }
