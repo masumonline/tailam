@@ -73,6 +73,8 @@ import addLoginFormWithIcons from "./blocks/content/forms/login_form_with_icons.
 import subscription_form_newsletter from "./blocks/content/forms/subscription_form_newsletter.js"
 import addSearchBarwithClearButton from "./blocks/content/forms/search_bar_with_clear_button.js"
 import addSearchBoxwithAnimatedUnderlineOnFocus from "./blocks/content/forms/search_box_with_animated_underline_on_focus.js"
+import addSearchBoxwithShadowandBorder from "./blocks/content/forms/search_Box_with_Shadow and Border.js"
+import addSearchBoxWithAnimatedSearchIcon from "./blocks/content/forms/search_box_with_animated_search_icon.js"
 
 export default (editor) => {
     const bm = editor.BlockManager
@@ -151,4 +153,6 @@ export default (editor) => {
     subscription_form_newsletter(bm)
     addSearchBarwithClearButton(bm)
     addSearchBoxwithAnimatedUnderlineOnFocus(bm)
+    addSearchBoxwithShadowandBorder(bm)
+    addSearchBoxWithAnimatedSearchIcon(bm)
 }
