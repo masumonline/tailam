@@ -9,8 +9,8 @@ export default function addGrid2x5(bm) {
     <text x="4" y="0.7" font-family="Arial" font-size="0.7" fill="white" text-anchor="middle" alignment-baseline="middle">5</text>
 </svg>`,
         content: `<div class="grid grid-cols-6 grid-rows-1 gap-4">
-    <div class="col-span-1">1</div>
-    <div class="col-span-5 col-start-2">5</div>
+    <div class="col-span-1 min-h-24"></div>
+    <div class="col-span-5 min-h-24 col-start-2"></div>
 </div>`,
     })
 }
