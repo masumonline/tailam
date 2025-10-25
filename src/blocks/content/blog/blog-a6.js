@@ -3,7 +3,7 @@ export default function addBlog6(bm) {
         label: "Blog-6",
         category: "Tailwind Blog",
         media: `<div style="font-size: 20px; font-weight: bold; color: #f97316;">Blog 6</div>`,
-        content: `<section class="max-w-6xl mx-auto px-6 py-16">
+        content: `<section class="max-w-6xl px-6 py-16">
       <h1
         class="text-4xl md:text-5xl font-bold mb-16 text-center tracking-tight"
       >

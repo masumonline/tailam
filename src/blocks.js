@@ -48,6 +48,8 @@ import addDropdown from "./blocks/nav/dropdown.js"
 import addNavBarLogoCenter from "./blocks/nav/navbarlogocenter.js"
 import addSidebar1 from "./blocks/nav/sidebar1.js"
 import addSidebar2 from "./blocks/nav/sidebar2.js"
+import addHeaderwithLogo from "./blocks/nav/header_with_logo.js"
+import addFreshHeaderLogo from "./blocks/nav/fresh_header_with_inline_Logo.js"
 import addBlog1 from "./blocks/content/blog/blog-a1.js"
 import addBlog2 from "./blocks/content/blog/blog-a2.js"
 import addBlog3 from "./blocks/content/blog/blog-a3.js"
@@ -60,6 +62,20 @@ import addBlog9 from "./blocks/content/blog/blog-a9.js"
 import addBlog10 from "./blocks/content/blog/blog-a10.js"
 import addBlog11 from "./blocks/content/blog/blog-a11.js"
 import addHero1 from "./blocks/content/hero/hero1.js"
+import addGallerywithInformation from "./blocks/content/gallery/gallery_with_information.js"
+import addOverlayGridGallery1 from "./blocks/content/gallery/overlayGridGallery1.js"
+import addPhotoGallery from "./blocks/content/gallery/photogallery.js"
+import addFooter1 from "./blocks/content/footer/footer1.js"
+import addFooter2 from "./blocks/content/footer/footer2.js"
+import addCompactSignupForm from "./blocks/content/forms/compact_signup_form.js"
+import addFeedbackFormWithDropdown from "./blocks/content/forms/feedback_form_with_dropdown.js"
+import job_application_form from "./blocks/content/forms/job_application_form.js"
+import addLoginFormWithIcons from "./blocks/content/forms/login_form_with_icons.js"
+import subscription_form_newsletter from "./blocks/content/forms/subscription_form_newsletter.js"
+import addSearchBarwithClearButton from "./blocks/content/forms/search_bar_with_clear_button.js"
+import addSearchBoxwithAnimatedUnderlineOnFocus from "./blocks/content/forms/search_box_with_animated_underline_on_focus.js"
+import addSearchBoxwithShadowandBorder from "./blocks/content/forms/search_Box_with_Shadow and Border.js"
+import addSearchBoxWithAnimatedSearchIcon from "./blocks/content/forms/search_box_with_animated_search_icon.js"
 
 export default (editor) => {
     const bm = editor.BlockManager
@@ -94,6 +110,8 @@ export default (editor) => {
     addDropdown(bm)
     addSidebar1(bm)
     addSidebar2(bm)
+    addHeaderwithLogo(bm)
+    addFreshHeaderLogo(bm)
     addCard1(bm)
     addCard2(bm)
     addCard3(bm)
@@ -125,4 +143,18 @@ export default (editor) => {
     addBlog10(bm)
     addBlog11(bm)
     addHero1(bm)
+    addGallerywithInformation(bm)
+    addOverlayGridGallery1(bm)
+    addPhotoGallery(bm)
+    addFooter1(bm)
+    addFooter2(bm)
+    addCompactSignupForm(bm)
+    addFeedbackFormWithDropdown(bm)
+    job_application_form(bm)
+    addLoginFormWithIcons(bm)
+    subscription_form_newsletter(bm)
+    addSearchBarwithClearButton(bm)
+    addSearchBoxwithAnimatedUnderlineOnFocus(bm)
+    addSearchBoxwithShadowandBorder(bm)
+    addSearchBoxWithAnimatedSearchIcon(bm)
 }
