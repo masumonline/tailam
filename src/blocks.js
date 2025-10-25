@@ -69,6 +69,7 @@ import addHero5 from "./blocks/content/hero/hero5.js"
 import addHero6 from "./blocks/content/hero/hero6.js"
 import addHero7 from "./blocks/content/hero/hero7.js"
 import addHero8 from "./blocks/content/hero/hero8.js"
+import addHero9 from "./blocks/content/hero/hero9.js"
 import addGallerywithInformation from "./blocks/content/gallery/gallery_with_information.js"
 import addOverlayGridGallery1 from "./blocks/content/gallery/overlayGridGallery1.js"
 import addPhotoGallery from "./blocks/content/gallery/photogallery.js"
@@ -157,6 +158,7 @@ export default (editor) => {
     addHero6(bm)
     addHero7(bm)
     addHero8(bm)
+    addHero9(bm)
     addGallerywithInformation(bm)
     addOverlayGridGallery1(bm)
     addPhotoGallery(bm)
