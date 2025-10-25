@@ -62,6 +62,13 @@ import addBlog9 from "./blocks/content/blog/blog-a9.js"
 import addBlog10 from "./blocks/content/blog/blog-a10.js"
 import addBlog11 from "./blocks/content/blog/blog-a11.js"
 import addHero1 from "./blocks/content/hero/hero1.js"
+import addHero2 from "./blocks/content/hero/hero2.js"
+import addHero3 from "./blocks/content/hero/hero3.js"
+import addHero4 from "./blocks/content/hero/hero4.js"
+import addHero5 from "./blocks/content/hero/hero5.js"
+import addHero6 from "./blocks/content/hero/hero6.js"
+import addHero7 from "./blocks/content/hero/hero7.js"
+import addHero8 from "./blocks/content/hero/hero8.js"
 import addGallerywithInformation from "./blocks/content/gallery/gallery_with_information.js"
 import addOverlayGridGallery1 from "./blocks/content/gallery/overlayGridGallery1.js"
 import addPhotoGallery from "./blocks/content/gallery/photogallery.js"
@@ -143,6 +150,13 @@ export default (editor) => {
     addBlog10(bm)
     addBlog11(bm)
     addHero1(bm)
+    addHero2(bm)
+    addHero3(bm)
+    addHero4(bm)
+    addHero5(bm)
+    addHero6(bm)
+    addHero7(bm)
+    addHero8(bm)
     addGallerywithInformation(bm)
     addOverlayGridGallery1(bm)
     addPhotoGallery(bm)
