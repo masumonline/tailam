@@ -3,7 +3,7 @@ export default function addHero4(bm) {
         label: "Hero4",
         category: "Tailwind Hero",
         media: `<img src="https://i.ibb.co.com/nMMhbn54/hero4.webp" alt="hero4" border="0">`,
-        content: `<main class="dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
+        content: `<main class="dark:bg-gray-800 bg-white relative">
     <header class="h-24 sm:h-32 flex items-center z-30 w-full">
         <div class="container mx-auto px-6 flex items-center justify-between">
             <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
