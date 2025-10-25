@@ -59,6 +59,7 @@ import addBlog8 from "./blocks/content/blog/blog-a8.js"
 import addBlog9 from "./blocks/content/blog/blog-a9.js"
 import addBlog10 from "./blocks/content/blog/blog-a10.js"
 import addBlog11 from "./blocks/content/blog/blog-a11.js"
+import addHero1 from "./blocks/content/hero/hero1.js"
 
 export default (editor) => {
     const bm = editor.BlockManager
@@ -123,4 +124,5 @@ export default (editor) => {
     addBlog9(bm)
     addBlog10(bm)
     addBlog11(bm)
+    addHero1(bm)
 }
