@@ -9,13 +9,13 @@ export default (editor) => {
         canvasHead.appendChild(script)
 
         loadBlocks(editor)
-        // editor.BlockManager.getCategories().forEach((category) => {
-        //   category.set("open", false);
-        // });
-
         editor.BlockManager.getCategories().forEach((category) => {
-            const isMain = category.get("id") === "Tailwind Blog"
-            category.set("open", isMain)
+            category.set("open", false)
         })
+
+        // editor.BlockManager.getCategories().forEach((category) => {
+        //     const isMain = category.get("id") === "Tailwind Blog"
+        //     category.set("open", isMain)
+        // })
     })
 }
