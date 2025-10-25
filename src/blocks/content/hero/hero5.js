@@ -2,7 +2,7 @@ export default function addHero5(bm) {
     bm.add("hero5", {
         label: "Hero5",
         category: "Tailwind Hero",
-        media: `<img src="https://i.ibb.co.com/MkxqknbZ/hero5.webp" alt="hero5" border="0">`,
+        media: `<img src="https://i.ibb.co.com/MkxqknbZ/hero5.webp" alt="hero5" width="100px" border="0">`,
         content: `<div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
   <div class="absolute inset-0">
     <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" class="object-cover object-center w-full h-full" />

@@ -2,7 +2,7 @@ export default function addHero6(bm) {
     bm.add("hero6", {
         label: "Hero6",
         category: "Tailwind Hero",
-        media: `<img src="https://i.ibb.co.com/Ps4ZwyKR/hero6.webp" alt="hero6" border="0">`,
+        media: `<img src="https://i.ibb.co.com/Ps4ZwyKR/hero6.webp" alt="hero6" width="100px" border="0">`,
         content: `<section class="relative h-screen flex flex-col items-center justify-center text-center text-white ">
     <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video class="min-w-full min-h-full absolute object-cover"

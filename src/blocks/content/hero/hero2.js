@@ -2,7 +2,7 @@ export default function addHero2(bm) {
     bm.add("hero2", {
         label: "Hero2",
         category: "Tailwind Hero",
-        media: `<img src="https://i.ibb.co.com/HDJBWDqy/hero2.webp" alt="hero2" border="0">`,
+        media: `<img src="https://i.ibb.co.com/HDJBWDqy/hero2.webp" alt="hero2" width="100px" border="0">`,
         content: `                                                <nav class="py-5 lg:fixed transition-all top-0 left-0 z-50 duration-500 w-full bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="w-full flex flex-col lg:flex-row">

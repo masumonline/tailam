@@ -2,7 +2,7 @@ export default function addHero3(bm) {
     bm.add("hero3", {
         label: "Hero3",
         category: "Tailwind Hero",
-        media: `<img src="https://i.ibb.co.com/fzzqYsQ5/hero3.webp" alt="hero3" border="0">`,
+        media: `<img src="https://i.ibb.co.com/fzzqYsQ5/hero3.webp" alt="hero3" width="100px" border="0">`,
         content: `<nav class="py-5 lg:fixed w-full bg-white transition-all duration-500 ">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="w-full flex flex-col lg:flex-row">

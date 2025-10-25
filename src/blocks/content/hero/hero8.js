@@ -2,7 +2,7 @@ export default function addHero8(bm) {
     bm.add("hero8", {
         label: "Hero8",
         category: "Tailwind Hero",
-        media: `<img src="https://i.ibb.co.com/rGjXvPv3/hero8.webp" alt="hero8" border="0">`,
+        media: `<img src="https://i.ibb.co.com/rGjXvPv3/hero8.webp" alt="hero8" width="100px" border="0">`,
         content: `<div class="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero overflow-hidden">
     <div class="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
         <div class="w-full md:w-1/2 lg:pr-32">
