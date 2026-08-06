@@ -27,5 +27,5 @@ export default function addHero9(bm) {
         </div>
     </div>
 </section>`,
-    })
+    });
 }

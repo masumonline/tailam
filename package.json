@@ -1,6 +1,6 @@
 {
     "name": "grapesjs-tailam",
-    "version": "1.0.16",
+    "version": "1.0.22",
     "description": "Grapesjs Tailam",
     "main": "dist/index.js",
     "repository": {
@@ -8,7 +8,6 @@
         "url": "https://github.com/masumonline/tailam.git"
     },
     "scripts": {
-        "start": "grapesjs-cli serve",
         "dev": "grapesjs-cli serve",
         "build": "grapesjs-cli build",
         "bump": "npm version patch -m 'Bump v%s'"

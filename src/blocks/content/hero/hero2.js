@@ -368,5 +368,5 @@ export default function addHero2(bm) {
       </div>
     </div>
   </section>`,
-    })
+    });
 }
